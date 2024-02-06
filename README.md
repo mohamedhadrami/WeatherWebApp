@@ -1,6 +1,6 @@
 # WeatherWebApp
 
-*WeatherWebApp* is a Node.js-based web application that provides weather information. It utilizes various controllers for geocoding and weather.
+*WeatherWebApp* is a Node.js-based web application that provides weather information. It utilizes various controllers for geocoding and weather. Using [National Web Service API](https://www.weather.gov/documentation/services-web-api) and [OpenCage Geocoding API](opencagedata.com).
 
 ## Dependencies
 
