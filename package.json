@@ -1,0 +1,19 @@
+{
+  "name": "weatherwebapp",
+  "version": "1.0.0",
+  "description": "Weather web app to run on local network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo 'Starting server on port 3000' && node src/server.js"
+  },
+  "keywords": [],
+  "author": "Mohamed Hadrami",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "node-fetch": "^2.6.1"
+  }
+}

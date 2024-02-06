@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS weather (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    temperature DECIMAL(5, 2),
+    description VARCHAR(255),
+    location VARCHAR(255),
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
